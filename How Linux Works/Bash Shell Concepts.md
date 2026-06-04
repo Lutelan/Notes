@@ -54,10 +54,10 @@ Processes running in the background unless specified read from STDIN and write t
 
 ##### File Modes and Permissions
 Every file has a set of permissions which can be displayed using `ls -l`, it looks something like this
-![[Selection_1139.png]]
+![[Images/Selection_1139.png]]
 The files mode represents it permissions and is the one leftmost of the output, the meaning of the shit in the mode is represented best as follows
 <div align="center">
-  <img src="Selection_1140.png" width="400">
+  <img src="Images/Selection_1140.png" width="400">
 </div>
 A dash in the type means it is regular file, `r` means the file is readable, `w` means its writable and `x` means it is executable, `-` means that permissions has not been granted. The user permissions are for the owner of the file, the group permissions are for the files group and then for others
 
