@@ -16,7 +16,7 @@ On the other hand if the removal of sequences such as `../` is not recursive, on
 
 Other bypasses may include URL encoding characters such as `/` or even double URL encoding them, certain applications require absolute paths for accessing images such as `/var/www/images/1.jpg`, in this case one can just use the `../` sequence to get oneself to the root directory.
 
-Some applications require the file name in the url to end with a `.jpg` or `.png` or whatever they line, one can get around this by using a null byte to prevent reading of the filename after the byte by internal systems as follows
+Some applications require the file name in the url to end with a `.jpg` or `.png` or whatever they like, one can get around this by using a null byte to prevent reading of the filename after the byte by internal systems as follows
 ```
 filename=../../../etc/passwd%00.png
 ```
