@@ -1,0 +1,6 @@
+- `.text` contains the program instructions
+- `.rodata` contains constant values like strings
+- `.data` contains statically allocated variables whose initial values are _not_ zero
+- `.bss` also contains statically allocated variables whose initial values _are_ zero
+- `.vector_table` is a _non_-standard section that we use to store the vector (interrupt) table
+- `.ARM.attributes` and the `.debug_*` sections contain metadata and will _not_ be loaded onto the target when flashing the binary.
